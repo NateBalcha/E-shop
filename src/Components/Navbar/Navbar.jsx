@@ -114,6 +114,7 @@ const Navbar = () => {
       </Link>
       <ul className="nav-menu">
         <li
+          className="nav-menu-link"
           onClick={() => {
             setMenu("shop");
           }}
@@ -124,6 +125,7 @@ const Navbar = () => {
           {menu === "shop" ? <hr /> : <></>}
         </li>
         <li
+          className="nav-menu-link"
           onClick={() => {
             setMenu("mens");
           }}
@@ -134,6 +136,7 @@ const Navbar = () => {
           {menu === "mens" ? <hr /> : <></>}
         </li>
         <li
+          className="nav-menu-link"
           onClick={() => {
             setMenu("womens");
           }}
@@ -144,6 +147,7 @@ const Navbar = () => {
           {menu === "womens" ? <hr /> : <></>}
         </li>
         <li
+          className="nav-menu-link"
           onClick={() => {
             setMenu("kids");
           }}

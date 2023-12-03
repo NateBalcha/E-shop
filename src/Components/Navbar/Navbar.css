@@ -95,8 +95,8 @@
   align-items: center;
   list-style: none;
   gap: 50px;
-  color: #626262;
-  font-size: 20px;
+  color: gray;
+  font-size: 25px;
   font-weight: 500;
 }
 .nav-menu li {
@@ -147,3 +147,6 @@
   background: red;
   color: white;
 }
+/* .nav-menu li {
+  color: red;
+} */

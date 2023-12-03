@@ -152,7 +152,6 @@
 
 import React, { createContext, useState, useEffect } from "react";
 import all_product from "../Components/Assets/all_product";
-import { day } from "../Pages/LoginSignup";
 
 export const ShopContext = createContext(null);
 
@@ -163,8 +162,6 @@ const getDefaultCart = () => {
   }
   return cart;
 };
-
-console.log("day is ", day);
 
 const ShopContextProvider = (props) => {
   // const [logStatus, setLogStatus] = useState(false);
