@@ -14,12 +14,12 @@
 }
 .hero-left h2 {
   color: #090909;
-  font-size: 26px;
+  font-size: 20px;
   font-weight: 600;
 }
 .hero-left p {
   color: #171717;
-  font-size: 100px;
+  font-size: 70px;
   font-weight: 700;
 }
 .hero-hand-icon {
@@ -35,13 +35,13 @@
   justify-content: center;
   align-items: center;
   gap: 15px;
-  width: 309px;
-  height: 69px;
+  width: 290px;
+  height: 60px;
   border-radius: 75px;
   margin-top: 30px;
   background: #ff4141;
   color: #fff;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: 500;
 }
 .hero-latest-btn:hover div {
@@ -53,4 +53,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.hero-right img {
+  max-width: 75%;
+  height: auto;
 }
