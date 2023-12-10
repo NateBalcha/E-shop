@@ -51,3 +51,35 @@
   font-size: 12px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 715px) {
+  .newsletter {
+    width: 32%;
+  }
+  .newsletter h1 {
+    font-size: 25px;
+    width: 300px;
+    text-align: center;
+  }
+  .newsletter p {
+    width: 300px;
+    text-align: center;
+  }
+  .newsletter input {
+    width: 300px;
+  }
+  .newsletter button {
+    width: 100px;
+    font-size: medium;
+  }
+  .newsletter div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    width: 330px;
+    height: 50px;
+    border-radius: 80px;
+    border: 1px solid #bbbaba;
+  }
+}

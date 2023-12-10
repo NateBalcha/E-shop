@@ -80,3 +80,90 @@
   width: 35px;
   height: 35px;
 }
+
+.navbar-collapse {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background-color: var(--black-color);
+  height: 100%;
+  width: 280px;
+  display: flex;
+  padding: 10rem 3rem 0 3rem;
+  transform: translatex(100%);
+  transition: var(--transition);
+}
+.hamburger-menu {
+  background-color: transparent;
+  border: none;
+}
+.show-navbar-collapse {
+  transform: translateX(0);
+}
+.navbar-toggler-btn {
+  display: none;
+}
+.small-screen-nav-menu {
+  display: none;
+}
+@media screen and (max-width: 715px) {
+  .navbar-toggler-btn {
+    display: block;
+  }
+
+  .nav-login-cart button {
+    font-size: 0; /* Set font size to 0 to hide text */
+    padding: 0px; /* Increase padding for circular appearance */
+    border-radius: 50%; /* Apply border radius for circular appearance */
+    height: 40px;
+    width: 40px;
+  }
+
+  .nav-login-cart button::before {
+    content: "\1F464"; /* Unicode character for a user icon */
+    font-size: 26px; /* Adjust the icon size as needed */
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 0px; /* Add some spacing between the icon and the border */
+    border: none;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .small-screen-nav-menu {
+    display: block;
+    position: relative;
+    background-color: #fbdfd5;
+    /* background-color: transparent; */
+    list-style-type: none;
+    margin-left: 0;
+    padding-right: 50px;
+  }
+  .nav-link {
+    color: #000000;
+    font-size: 1.7rem;
+    opacity: 0.8;
+    text-decoration: none;
+    /* padding-right: 90px; */
+  }
+
+  .show-navbar-collapse {
+    margin-top: 67px;
+    /* margin: 100px; */
+    padding-top: 0;
+    padding-left: 0;
+    margin-right: -40px;
+
+    /* background-color: yellow; */
+    width: 158px;
+  }
+  .nav-item {
+    /* background-color: red; */
+    /* margin-left: 0; */
+  }
+  .test {
+    position: relative;
+    margin-left: -30px;
+  }
+}

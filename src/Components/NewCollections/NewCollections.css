@@ -23,3 +23,14 @@
   margin-top: 50px;
   gap: 30px;
 }
+
+@media screen and (max-width: 715px) {
+  .collections {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .new-collections {
+    margin-top: -100px;
+  }
+}

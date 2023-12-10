@@ -61,3 +61,13 @@
   background: #c7c7c7;
   margin-bottom: -10px;
 }
+
+@media screen and (max-width: 715px) {
+  .footer {
+    align-items: center;
+  }
+  .footer-links {
+    gap: 20px;
+    margin-right: 50px;
+  }
+}
