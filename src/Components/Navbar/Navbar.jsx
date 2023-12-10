@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="nav">
       <Link to="/" style={{ textDecoration: "none" }} className="nav-logo">
         <img src={logo} alt="logo" />
-        <p>SHOPPER</p>
+        <p>ClickBoutique</p>
       </Link>
       <ul className="nav-menu">
         <li
@@ -61,6 +61,7 @@ const Navbar = () => {
           {menu === "kids" ? <hr /> : <></>}
         </li>
       </ul>
+
       <div className="nav-login-cart">
         {localStorage.getItem("auth-token") ? (
           <button
