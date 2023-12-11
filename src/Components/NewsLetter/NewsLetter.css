@@ -69,9 +69,10 @@
     width: 300px;
   }
   .newsletter button {
-    width: 100px;
+    /* width: 100px;
     font-size: medium;
-    margin-right: 00px;
+    margin-right: 00px; */
+    display: none;
   }
   .newsletter div {
     display: flex;
