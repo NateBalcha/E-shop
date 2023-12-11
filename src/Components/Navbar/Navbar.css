@@ -118,18 +118,25 @@
     font-size: 0; /* Set font size to 0 to hide text */
     padding: 0px; /* Increase padding for circular appearance */
     border-radius: 50%; /* Apply border radius for circular appearance */
-    height: 40px;
-    width: 40px;
+    height: 30px;
+    width: 30px;
   }
 
   .nav-login-cart button::before {
     content: "\1F464"; /* Unicode character for a user icon */
-    font-size: 26px; /* Adjust the icon size as needed */
+    font-size: 16px; /* Adjust the icon size as needed */
     display: inline-block;
     vertical-align: middle;
     margin-right: 0px; /* Add some spacing between the icon and the border */
     border: none;
   }
+  .nav-login-cart img {
+    height: 30px;
+    width: 30px;
+    margin-bottom: -6px;
+    margin-left: 50px;
+  }
+
   .nav-menu {
     display: none;
   }

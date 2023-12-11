@@ -37,3 +37,27 @@
   font-size: 14px;
   font-weight: 500;
 }
+@media screen and (max-width: 715px) {
+  .shopcategory-banner {
+    width: 95%;
+    margin-left: 5px;
+  }
+  .shopcategory-indexSort {
+    font-size: 13px;
+  }
+  .shopcategory-indexSort {
+    width: 350px;
+    margin-left: 20px;
+  }
+  .shopcategory-sort {
+    font-size: 13px;
+    padding: 5px;
+  }
+  .shopcategory-products {
+    /* margin: 20px 135px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-left: 10px;
+  }
+}
