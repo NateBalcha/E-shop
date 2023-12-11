@@ -134,7 +134,7 @@ let all_product = [
   },
   {
     id: 13,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men Green Athletic Jacket",
     category: "men",
     image: p13_img,
     new_price: 85.0,
@@ -142,7 +142,7 @@ let all_product = [
   },
   {
     id: 14,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's White Winter Jacket",
     category: "men",
     image: p14_img,
     new_price: 85.0,
@@ -150,7 +150,7 @@ let all_product = [
   },
   {
     id: 15,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's Bomber Jacket",
     category: "men",
     image: p15_img,
     new_price: 85.0,
@@ -158,7 +158,7 @@ let all_product = [
   },
   {
     id: 16,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's Active Fit Jacket",
     category: "men",
     image: p16_img,
     new_price: 85.0,
@@ -166,7 +166,7 @@ let all_product = [
   },
   {
     id: 17,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's Jeans Jacket",
     category: "men",
     image: p17_img,
     new_price: 85.0,
@@ -174,7 +174,7 @@ let all_product = [
   },
   {
     id: 18,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's Track Sweater",
     category: "men",
     image: p18_img,
     new_price: 85.0,
@@ -182,7 +182,7 @@ let all_product = [
   },
   {
     id: 19,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's White Track Sweater",
     category: "men",
     image: p19_img,
     new_price: 85.0,
@@ -190,7 +190,7 @@ let all_product = [
   },
   {
     id: 20,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Me's Zip-up Sweater",
     category: "men",
     image: p20_img,
     new_price: 85.0,
@@ -198,7 +198,7 @@ let all_product = [
   },
   {
     id: 21,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's Slim Jacket",
     category: "men",
     image: p21_img,
     new_price: 85.0,
@@ -206,7 +206,7 @@ let all_product = [
   },
   {
     id: 22,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's White Hoodie",
     category: "men",
     image: p22_img,
     new_price: 85.0,
@@ -214,7 +214,7 @@ let all_product = [
   },
   {
     id: 23,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's Green Top Jacket",
     category: "men",
     image: p23_img,
     new_price: 85.0,
@@ -222,7 +222,7 @@ let all_product = [
   },
   {
     id: 24,
-    name: "Men Green Solid Zippered Full-Zip Slim Fit Bomber Jacket",
+    name: "Men's Leather Jacket",
     category: "men",
     image: p24_img,
     new_price: 85.0,
