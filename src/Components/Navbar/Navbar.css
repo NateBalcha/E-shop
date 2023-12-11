@@ -111,7 +111,9 @@
   .navbar-toggler-btn {
     display: block;
   }
-
+  .nav p {
+    display: none;
+  }
   .nav-login-cart button {
     font-size: 0; /* Set font size to 0 to hide text */
     padding: 0px; /* Increase padding for circular appearance */

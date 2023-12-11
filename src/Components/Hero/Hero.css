@@ -73,11 +73,13 @@
 @media screen and (max-width: 715px) {
   .hero-left {
     padding-left: 0;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .hero-left p {
     text-align: center;
-    font-size: 70px;
+    margin-top: 10px;
+    font-size: 50px;
+    width: 350px;
   }
   .hero-left h2 {
     text-align: center;
@@ -90,6 +92,6 @@
     display: none;
   }
   .hero-latest-btn {
-    margin-left: 50px;
+    margin-left: 28px;
   }
 }

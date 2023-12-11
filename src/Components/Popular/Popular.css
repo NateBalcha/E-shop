@@ -29,4 +29,7 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
+  .popular h1 {
+    font-size: 30px;
+  }
 }

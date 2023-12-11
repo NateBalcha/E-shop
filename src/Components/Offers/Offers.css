@@ -45,13 +45,13 @@
 @media screen and (max-width: 715px) {
   .offers {
     margin-top: 200px;
-    width: 32%;
+    width: 28%;
   }
   .offers-right {
     display: none;
   }
   .offers-left {
-    margin-left: -80px;
+    margin-left: -90px;
     align-items: center;
   }
   .offers-left h1 {
