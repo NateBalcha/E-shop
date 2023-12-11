@@ -71,6 +71,7 @@
   .newsletter button {
     width: 100px;
     font-size: medium;
+    margin-right: 100px;
   }
   .newsletter div {
     display: flex;

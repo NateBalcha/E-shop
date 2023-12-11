@@ -33,4 +33,7 @@
   .new-collections {
     margin-top: -100px;
   }
+  .new-collections h1 {
+    font-size: 30px;
+  }
 }
