@@ -12,6 +12,7 @@
 @media screen and (max-width: 715px) {
   .breadcrum {
     font-size: 13px;
-    margin: 35px 5px;
+    margin: 30px 3px;
+    width: 94%;
   }
 }

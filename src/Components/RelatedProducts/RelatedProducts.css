@@ -22,3 +22,13 @@
   display: flex;
   gap: 30px;
 }
+@media screen and (max-width: 715px) {
+  .relatedproducts-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  .relatedproducts {
+    height: 900px;
+  }
+}

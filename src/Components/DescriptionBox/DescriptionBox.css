@@ -29,3 +29,16 @@
 .descriptionbox-description {
   font-size: 15px;
 }
+@media screen and (max-width: 715px) {
+  .descriptionbox {
+    margin: 0;
+    width: 94%;
+  }
+  .descriptionbox-description {
+    width: 82%;
+  }
+  .descriptionbox-description p {
+    width: 100%;
+    font-size: 13px;
+  }
+}

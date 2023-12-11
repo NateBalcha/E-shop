@@ -111,6 +111,9 @@
   .navbar-toggler-btn {
     display: block;
   }
+  .nav {
+    width: 94%;
+  }
   .nav p {
     display: none;
   }
