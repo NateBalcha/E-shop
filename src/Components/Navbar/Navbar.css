@@ -4,6 +4,10 @@
   padding: 5px;
   box-shadow: 0 1px 3px -2px black;
   margin-bottom: -3px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .nav-logo {
   display: flex;
@@ -107,9 +111,63 @@
 .small-screen-nav-menu {
   display: none;
 }
+
+/*  */
+.navbar {
+  padding: 1.8rem 0;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.navbar-brand {
+  width: 90px;
+}
+.navbar-brand span {
+  margin-left: 2rem;
+}
+.brand-and-toggler {
+  width: 100%;
+}
+.navbar-content {
+  display: flex;
+  width: 100%;
+}
+.navbar-toggler-btn {
+  transition: var(--transition);
+  z-index: 11;
+}
+.navbar-collapse {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  background-color: var(--black-color);
+  height: 100%;
+  width: 280px;
+  display: flex;
+  padding: 10rem 3rem 0 3rem;
+  transform: translatex(100%);
+  transition: var(--transition);
+}
+.show-navbar-collapse {
+  transform: translateX(0);
+}
+.nav-item {
+  margin-bottom: 1.4rem;
+}
+.nav-link {
+  transition: var(--transition);
+}
+.nav-link:hover {
+  color: var(--purple-color);
+}
+
 @media screen and (max-width: 715px) {
   .navbar-toggler-btn {
     display: block;
+    height: 50px;
+    margin-top: 10px;
+    padding: 0;
+    height: 40px;
   }
   .nav {
     width: 94%;
@@ -143,36 +201,39 @@
   .nav-menu {
     display: none;
   }
+  .navbar-collapse {
+    position: relative;
+    height: auto;
+    padding: 0;
+    width: 100%;
+    background-color: transparent;
+    transform: translateX(3);
+    justify-content: flex-end;
+  }
   .small-screen-nav-menu {
     display: block;
-    position: relative;
-    background-color: #fbdfd5;
-    /* background-color: transparent; */
+    /* position: relative; */
+    /* background-color: #fbdfd5; */
+    background-color: white;
     list-style-type: none;
     margin-left: 0;
-    padding-right: 50px;
+    padding-right: 20px;
+    padding-left: 50px;
   }
   .nav-link {
     color: #000000;
     font-size: 1.7rem;
     opacity: 0.8;
     text-decoration: none;
-    /* padding-right: 90px; */
+    padding-right: 90px;
   }
 
   .show-navbar-collapse {
-    margin-top: 67px;
-    /* margin: 100px; */
+    margin-top: -93px;
     padding-top: 0;
     padding-left: 0;
     margin-right: -40px;
-
-    /* background-color: yellow; */
     width: 158px;
-  }
-  .nav-item {
-    /* background-color: red; */
-    /* margin-left: 0; */
   }
   .test {
     position: relative;

@@ -13,6 +13,10 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   const handleNavbar = () => setToggleMenu(!toggleMenu);
 
+  const handleMenuItemClick = () => {
+    setToggleMenu(false);
+  };
+
   return (
     <div className="nav">
       <Link to="/" style={{ textDecoration: "none" }} className="nav-logo">
@@ -111,22 +115,22 @@ const Navbar = () => {
       >
         <ul className="small-screen-nav-menu">
           <div className="test">
-            <li className="nav-item">
+            <li className="nav-item" onClick={handleMenuItemClick}>
               <Link className="nav-link" to="/">
                 Shop
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={handleMenuItemClick}>
               <Link className="nav-link" to="/mens">
                 Mens
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={handleMenuItemClick}>
               <Link className="nav-link" to="/womens">
                 Womens
               </Link>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" onClick={handleMenuItemClick}>
               <Link className="nav-link" to="/kids">
                 Kids
               </Link>
