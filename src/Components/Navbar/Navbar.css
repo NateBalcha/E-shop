@@ -9,6 +9,9 @@
   top: 0;
   z-index: 1000;
 }
+.nav-link-text {
+  color: grey;
+}
 .nav-logo {
   display: flex;
   align-items: center;
